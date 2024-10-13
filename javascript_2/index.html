@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:black;color: azure;">
+    <h1 id="title" class="style">dom chapter</h1>
+    <p id="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur atque cumque voluptatem ab labore nihil assumenda voluptas! Blanditiis quia consequatur minima ullam, explicabo modi distinctio, sequi cumque incidunt atque asperiores!<10></10>
+    </p>
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script src="first.js"></script>
+<script>
+    const div=document.createElement('div')
+    console.log(div);
+    div.className='head'
+    div.id='foot'
+    div.innerText="hello shashank"
+    document.body.appendChild(div)
+</script>
+<script>
+    function addlang(language){
+        const li=document.createElement('li');
+        li.innerHTML=`${language}`;
+        document.querySelector('.language').appendChild(li)
+    }
+    addlang('python')
+    addlang('Shashank')
+    addlang('React js')
+    addlang('satyam')
+</script>
+</html>

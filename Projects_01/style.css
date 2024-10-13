@@ -1,0 +1,52 @@
+.good{
+    background-color: rgb(27, 23, 23);
+}
+.navy{
+    padding: 40px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    display:flex;
+    transition: 0s;
+    transform: scale(1.2);
+
+}
+.button{
+    padding: 30px;
+    border: 10;
+    background-color: rgb(18, 231, 28);
+    border-style:groove;
+    border-color: black;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+}
+#Grey{
+    background-color: rgb(64, 64, 68);
+}
+#Grey:hover{
+    background-color: rgb(85, 83, 82);
+}
+#White{
+    background-color: white;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-style:groove;
+    border-color: black;
+}
+.button:hover{
+    
+    transform: scale(1.2); /* increases the size to 120% on hover */
+    transition: transform 0.3s ease; /* smooth transition effect */
+}
+#Orange{
+    background-color: orange;
+
+}
+#Orange:hover{
+    background-color:orange;
+}
